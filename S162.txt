@@ -1,0 +1,248 @@
+code name
+AF	Afghan
+AX	Swedish
+AL	Albanian
+DZ	Algerian
+AS	American Samoan
+AD	Andorran
+AO	Angolan
+AI	Anguillian
+AQ	Антарктида
+AG	Antiguan, Barbudan
+AR	Argentinean
+AM	Armenian
+AW	Aruban
+AU	Australian
+AT	Austrian
+AZ	Azerbaijani
+BS	Bahamian
+BH	Bahraini
+BD	Bangladeshi
+BB	Barbadian
+BY	Belarusian
+BE	Belgian
+BZ	Belizean
+BJ	Beninese
+BM	Bermudian
+BT	Bhutanese
+BO	Bolivian
+BA	Bosnian, Herzegovinian
+BW	Motswana
+BV	Буве
+BR	Brazilian
+IO	Indian
+BN	Bruneian
+BG	Bulgarian
+BF	Burkinabe
+BI	Burundian
+KH	Cambodian
+CM	Cameroonian
+CA	Canadian
+CV	Cape Verdian
+KY	Caymanian
+CF	Central African
+TD	Chadian
+CL	Chilean
+CN	Chinese
+CX	Christmas Island
+CC	Cocos Islander
+CO	Colombian
+KM	Comoran
+CG	Congolese
+CD	Congolese
+CK	Cook Islander
+CR	Costa Rican
+CI	Ivorian
+HR	Croatian
+CU	Cuban
+CY	Cypriot
+CZ	Czech
+DK	Danish
+DJ	Djibouti
+DM	Dominican
+DO	Dominican
+EC	Ecuadorean
+EG	Egyptian
+SV	Salvadoran
+GQ	Equatorial Guinean
+ER	Eritrean
+EE	Estonian
+ET	Ethiopian
+FK	Falkland Islander
+FO	Faroese
+FJ	Fijian
+FI	Finnish
+FR	French
+GF	Френска Гвиана
+PF	French Polynesian
+TF	French
+GA	Gabonese
+GM	Gambian
+GE	Georgian
+DE	German
+GH	Ghanaian
+GI	Gibraltar
+GR	Greek
+GL	Greenlandic
+GD	Grenadian
+GP	Guadeloupian
+GU	Guamanian
+GT	Guatemalan
+GG	Channel Islander
+GN	Guinean
+GW	Guinea-Bissauan
+GY	Guyanese
+HT	Haitian
+HM	Heard and McDonald Islander
+VA	Italian
+HN	Honduran
+HK	Chinese
+HU	Hungarian
+IS	Icelander
+IN	Indian
+ID	Indonesian
+IR	Iranian
+IQ	Iraqi
+IE	Irish
+IM	Manx
+IL	Israeli
+IT	Italian
+JM	Jamaican
+JP	Japanese
+JE	Channel Islander
+JO	Jordanian
+KZ	Kazakhstani
+KE	Kenyan
+KI	I-Kiribati
+KP	North Korean
+KR	South Korean
+KW	Kuwaiti
+KG	Kirghiz
+LA	Laotian
+LV	Latvian
+LB	Lebanese
+LS	Mosotho
+LR	Liberian
+LY	Libyan
+LI	Liechtensteiner
+LT	Lithuanian
+LU	Luxembourger
+MO	Chinese
+MK	Macedonian
+MG	Malagasy
+MW	Malawian
+MY	Malaysian
+MV	Maldivan
+ML	Malian
+MT	Maltese
+MH	Marshallese
+MQ	French
+MR	Mauritanian
+MU	Mauritian
+YT	French
+MX	Mexican
+FM	Micronesian
+MD	Moldovan
+MC	Monegasque
+MN	Mongolian
+ME	Montenegrin
+MS	Montserratian
+MA	Moroccan
+MZ	Mozambican
+MM	Myanmar
+NA	Namibian
+NR	Nauruan
+NP	Nepalese
+NL	Dutch
+AN	Dutch
+NC	New Caledonian
+NZ	New Zealander
+NI	Nicaraguan
+NE	Nigerian
+NG	Nigerian
+NU	Niuean
+NF	Norfolk Islander
+MP	American
+NO	Norwegian
+OM	Omani
+PK	Pakistani
+PW	Palauan
+PS	Palestinian
+PA	Panamanian
+PG	Papua New Guinean
+PY	Paraguayan
+PE	Peruvian
+PH	Filipino
+PN	Pitcairn Islander
+PL	Polish
+PT	Portuguese
+PR	Puerto Rican
+QA	Qatari
+RE	French
+RO	Romanian
+RU	Russian
+RW	Rwandan
+BL	Saint Barthelemy Islander
+SH	Saint Helenian
+KN	Kittian and Nevisian
+LC	Saint Lucian
+MF	Saint Martin Islander
+PM	French
+VC	Saint Vincentian
+WS	Samoan
+SM	Sammarinese
+ST	Sao Tomean
+SA	Saudi Arabian
+SN	Senegalese
+RS	Serbian
+SC	Seychellois
+SL	Sierra Leonean
+SG	Singaporean
+SK	Slovak
+SI	Slovene
+SB	Solomon Islander
+SO	Somali
+ZA	South African
+GS	South Georgia and the South Sandwich Islander
+ES	Spanish
+LK	Sri Lankan
+SD	Sudanese
+SR	Surinamer
+SJ	Norwegian
+SZ	Swazi
+SE	Swedish
+CH	Swiss
+SY	Syrian
+TW	Taiwanese
+TJ	Tadzhik
+TZ	Tanzanian
+TH	Thai
+TL	East Timorese
+TG	Togolese
+TK	Tokelauan
+TO	Tongan
+TT	Trinidadian
+TN	Tunisian
+TR	Turkish
+TM	Turkmen
+TC	Turks and Caicos Islander
+TV	Tuvaluan
+UG	Ugandan
+UA	Ukrainian
+AE	Emirati
+GB	British
+US	American
+UM	American
+UY	Uruguayan
+UZ	Uzbekistani
+VU	Ni-Vanuatu
+VE	Venezuelan
+VN	Vietnamese
+VG	Virgin Islander
+VI	Virgin Islander
+WF	Wallis and Futuna Islander
+EH	Sahrawi
+YE	Yemeni
+ZM	Zambian
+ZW	Zimbabwean
+KS	Косово
