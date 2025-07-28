@@ -1,0 +1,1400 @@
+{
+  "name": "CUSTOM_KLIENTI",
+  "internal": {
+    "description": "CUSTOM TABELA KLIENTOV"
+  },
+  "en": {
+    "description": "CUSTOM TABLE OF CLIENTS"
+  },
+  "columns": [
+    {
+      "name": "ID_KLIENTI_KLNT",
+      "internal": {
+        "description": "ID Klienta"
+      },
+      "en": {
+        "description": "ID Client"
+      }
+    },
+    {
+      "name": "NREG",
+      "internal": {
+        "description": "Številka vpisa v register"
+      },
+      "en": {
+        "description": "Entry number in register"
+      }
+    },
+    {
+      "name": "NCER",
+      "internal": {
+        "description": "Številka certifikata"
+      },
+      "en": {
+        "description": "Certificate number"
+      }
+    },
+    {
+      "name": "SCER",
+      "internal": {
+        "description": "Serija certifikata v register"
+      },
+      "en": {
+        "description": "Series of certificate in register"
+      }
+    },
+    {
+      "name": "DCER",
+      "internal": {
+        "description": "Datum certfikata"
+      },
+      "en": {
+        "description": "Date of certificate"
+      }
+    },
+    {
+      "name": "LEGP",
+      "internal": {
+        "description": "Legalna procedura proti klientu"
+      },
+      "en": {
+        "description": "Legal process against client"
+      }
+    },
+    {
+      "name": "DHPO",
+      "internal": {
+        "description": "Dostava da se dostavlja s hitro pošto"
+      },
+      "en": {
+        "description": "Delivery is done with express mail"
+      }
+    },
+    {
+      "name": "TRAZ",
+      "internal": {
+        "description": "Oznaka da je klient izpostavljen tečajnim razlikam. To je kadar dobiva plačo v RON-ih, pogodbe pa ima v EUR"
+      },
+      "en": {
+        "description": "Mark that client is exposed to exchange rate differences"
+      }
+    },
+    {
+      "name": "POBA",
+      "internal": {
+        "description": "Oznaka da se na narodno banko pošlja oznaka, da ima klient posebne odnose s banko (recimo je zaposlen v banki,…)"
+      },
+      "en": {
+        "description": "Mark that is send to national bank which determines that client has special relationship with bank"
+      }
+    },
+    {
+      "name": "PGEM",
+      "internal": {
+        "description": "Oznaka da je klient sodelavec Porsche Grupe"
+      },
+      "en": {
+        "description": "Mark that client is associate of Porsche Group"
+      }
+    },
+    {
+      "name": "REZI",
+      "internal": {
+        "description": "Rezident ali ne rezident"
+      },
+      "en": {
+        "description": "Resident or not resident"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10028"
+      }
+    },
+    {
+      "name": "RREG",
+      "internal": {
+        "description": "Regija rojstva",
+        "remarks": "šifrant po tabeli regij za pošte"
+      },
+      "en": {
+        "description": "Birth region"
+      }
+    },
+    {
+      "name": "RSEK",
+      "internal": {
+        "description": "Sektor rojstva",
+        "remarks": "šifrant po tabeli sektorjev za pošte"
+      },
+      "en": {
+        "description": "Birth sector"
+      }
+    },
+    {
+      "name": "CRBB",
+      "internal": {
+        "description": "Blokiranje CRB poročanja za trenutnega klienta"
+      },
+      "en": {
+        "description": "Block CRB reporting for this client"
+      }
+    },
+    {
+      "name": "CRLT",
+      "internal": {
+        "description": "CRB Pravni tip"
+      },
+      "en": {
+        "description": "CRB Legal type"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10096"
+      }
+    },
+    {
+      "name": "CRBP",
+      "internal": {
+        "description": "CRB Vrsta lasnosti"
+      },
+      "en": {
+        "description": "CRB Property type"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10029"
+      }
+    },
+    {
+      "name": "CSEC",
+      "internal": {
+        "description": "Client sector (S11,S12 … )"
+      },
+      "en": {
+        "description": "Sektor klienta (S11,S12 … )"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10038"
+      }
+    },
+    {
+      "name": "FINL",
+      "internal": {
+        "description": "Linija financiranja"
+      },
+      "en": {
+        "description": "Financing line"
+      }
+    },
+    {
+      "name": "HOLN",
+      "internal": {
+        "description": "Holding #"
+      },
+      "en": {
+        "description": "Holding #"
+      }
+    },
+    {
+      "name": "FRSC",
+      "internal": {
+        "description": "Ocena tveganja goljufije"
+      },
+      "en": {
+        "description": "Fraud risk score"
+      }
+    },
+    {
+      "name": "EMPS",
+      "internal": {
+        "description": "Velikost delodajalca"
+      },
+      "en": {
+        "description": "Employer size"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10094"
+      }
+    },
+    {
+      "name": "PLSV",
+      "internal": {
+        "description": "Plača - valuta"
+      },
+      "en": {
+        "description": "Salary - currency"
+      }
+    },
+    {
+      "name": "REZV",
+      "internal": {
+        "description": "Najemnine - znesek"
+      },
+      "en": {
+        "description": "Rents - amount"
+      }
+    },
+    {
+      "name": "REVA",
+      "internal": {
+        "description": "Najemnine - valuta"
+      },
+      "en": {
+        "description": "Rents - currency"
+      }
+    },
+    {
+      "name": "DEZV",
+      "internal": {
+        "description": "Dividende na leto - znesek"
+      },
+      "en": {
+        "description": "Dividends per year - amount"
+      }
+    },
+    {
+      "name": "DEVA",
+      "internal": {
+        "description": "Dividende na leto - valuta"
+      },
+      "en": {
+        "description": "Dividends per year - currency"
+      }
+    },
+    {
+      "name": "AIZV",
+      "internal": {
+        "description": "Dohodki pooblaščene osebe - znesek"
+      },
+      "en": {
+        "description": "Authorized person incomes - amount"
+      }
+    },
+    {
+      "name": "AIVA",
+      "internal": {
+        "description": "Dohodki pooblaščene osebe - valuta"
+      },
+      "en": {
+        "description": "Authorized person incomes - currency"
+      }
+    },
+    {
+      "name": "NIZV",
+      "internal": {
+        "description": "Prihodek navigatorja - znesek"
+      },
+      "en": {
+        "description": "Navigator incomes - amount"
+      }
+    },
+    {
+      "name": "NIVA",
+      "internal": {
+        "description": "Prihodek navigatorja - valuta"
+      },
+      "en": {
+        "description": "Navigator incomes - currency"
+      }
+    },
+    {
+      "name": "CPZV",
+      "internal": {
+        "description": "Avtorske pravice - znesek"
+      },
+      "en": {
+        "description": "Copyright - amount"
+      }
+    },
+    {
+      "name": "CPVA",
+      "internal": {
+        "description": "Avtorske pravice - valuta"
+      },
+      "en": {
+        "description": "Copyright - currency"
+      }
+    },
+    {
+      "name": "FAZV",
+      "internal": {
+        "description": "Proste dejavnosti, pogodbe za upravljanje, civilne konvencije - znesek"
+      },
+      "en": {
+        "description": "Free activities, management contracts, civil conventions - znesek"
+      }
+    },
+    {
+      "name": "FAVA",
+      "internal": {
+        "description": "Proste dejavnosti, pogodbe za upravljanje, civilne konvencije - valuta"
+      },
+      "en": {
+        "description": "Free activities, management contracts, civil conventions - currency"
+      }
+    },
+    {
+      "name": "IAZV",
+      "internal": {
+        "description": "Dohodki iz tujine - znesek"
+      },
+      "en": {
+        "description": "Incomes from abroad - amount"
+      }
+    },
+    {
+      "name": "IAVA",
+      "internal": {
+        "description": "Dohodki iz tujine - valuta"
+      },
+      "en": {
+        "description": "Incomes from abroad - currency"
+      }
+    },
+    {
+      "name": "OCVA",
+      "internal": {
+        "description": "Obstoječe terjatve - valuta"
+      },
+      "en": {
+        "description": "Existing claims - currency"
+      }
+    },
+    {
+      "name": "OLZE",
+      "internal": {
+        "description": "Ostali krediti - EUR"
+      },
+      "en": {
+        "description": "Other loans - EUR"
+      }
+    },
+    {
+      "name": "OLZC",
+      "internal": {
+        "description": "Ostali krediti - CHF"
+      },
+      "en": {
+        "description": "Other loans - CHF"
+      }
+    },
+    {
+      "name": "OLZR",
+      "internal": {
+        "description": "Ostali krediti - RON"
+      },
+      "en": {
+        "description": "Other loans - RON"
+      }
+    },
+    {
+      "name": "CCZE",
+      "internal": {
+        "description": "Ostali krediti - kreditne kartice - EUR"
+      },
+      "en": {
+        "description": "Other loans - Credit Cards - EUR"
+      }
+    },
+    {
+      "name": "CCZC",
+      "internal": {
+        "description": "Ostali krediti - kreditne kartice - EUR"
+      },
+      "en": {
+        "description": "Other loans - Credit Cards - CHF"
+      }
+    },
+    {
+      "name": "CCZR",
+      "internal": {
+        "description": "Other loans - Credit Cards - RON"
+      },
+      "en": {
+        "description": "Other loans - Credit Cards - RON"
+      }
+    },
+    {
+      "name": "PAYB",
+      "internal": {
+        "description": "Plačilno vedenje"
+      },
+      "en": {
+        "description": "Payment behaviour"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10095"
+      }
+    },
+    {
+      "name": "INSH",
+      "internal": {
+        "description": "Insolvency history"
+      },
+      "en": {
+        "description": "Zgodovina plačilne nesposobnosti"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10100"
+      }
+    },
+    {
+      "name": "PFGP",
+      "internal": {
+        "description": "PFG plačila"
+      },
+      "en": {
+        "description": "PFG payments"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10101"
+      }
+    },
+    {
+      "name": "CIPE",
+      "internal": {
+        "description": "CIP dogodki"
+      },
+      "en": {
+        "description": "CIP events"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10102"
+      }
+    },
+    {
+      "name": "CRBX",
+      "internal": {
+        "description": "CRB"
+      },
+      "en": {
+        "description": "CRB"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10103"
+      }
+    },
+    {
+      "name": "OWNC",
+      "internal": {
+        "description": "Spremembe lastništva"
+      },
+      "en": {
+        "description": "Ownership changes"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10104"
+      }
+    },
+    {
+      "name": "BRAA",
+      "internal": {
+        "description": "Prepoznavnost blagovne znamke"
+      },
+      "en": {
+        "description": "Brand awareness"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10105"
+      }
+    },
+    {
+      "name": "COME",
+      "internal": {
+        "description": "Stroški vstopa na trg"
+      },
+      "en": {
+        "description": "Cost of market entry"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10106"
+      }
+    },
+    {
+      "name": "CLCO",
+      "internal": {
+        "description": "Koncentracija strank"
+      },
+      "en": {
+        "description": "Client concentration"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10107"
+      }
+    },
+    {
+      "name": "SUCO",
+      "internal": {
+        "description": "Koncentracija dobaviteljev"
+      },
+      "en": {
+        "description": "Suppliers concentration"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10108"
+      }
+    },
+    {
+      "name": "PRCO",
+      "internal": {
+        "description": "Product substitutes"
+      },
+      "en": {
+        "description": "Product substitutes"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10109"
+      }
+    },
+    {
+      "name": "COMP",
+      "internal": {
+        "description": "Konkurenca"
+      },
+      "en": {
+        "description": "Competition"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10110"
+      }
+    },
+    {
+      "name": "MANE",
+      "internal": {
+        "description": "Upravljanje"
+      },
+      "en": {
+        "description": "Management"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10111"
+      }
+    },
+    {
+      "name": "ID_S106_RCSC",
+      "internal": {
+        "description": "CSC odgovorna"
+      },
+      "en": {
+        "description": "CSC responsible"
+      }
+    },
+    {
+      "name": "ID_S106_RRCS",
+      "internal": {
+        "description": "CSC Odgovorni za rekalkulacijo"
+      },
+      "en": {
+        "description": "CSC Recalculations responsible"
+      }
+    },
+    {
+      "name": "ID_S106_RLOG",
+      "internal": {
+        "description": "Odgovoren za logistiko"
+      },
+      "en": {
+        "description": "Logistic responsible"
+      }
+    },
+    {
+      "name": "ID_S106_RBRO",
+      "internal": {
+        "description": "Odgovoren za Broker"
+      },
+      "en": {
+        "description": "Broker responsible"
+      }
+    },
+    {
+      "name": "ID_S106_RASM",
+      "internal": {
+        "description": "ASM odgovoren"
+      },
+      "en": {
+        "description": "ASM responsible"
+      }
+    },
+    {
+      "name": "NBLV",
+      "internal": {
+        "description": "VIP klient za PBNL"
+      },
+      "en": {
+        "description": "VIP client for PBNL"
+      }
+    },
+    {
+      "name": "BNUM",
+      "internal": {
+        "description": "Številka stavbe"
+      },
+      "en": {
+        "description": "Building number"
+      }
+    },
+    {
+      "name": "BENT",
+      "internal": {
+        "description": "Vhod v stavbo"
+      },
+      "en": {
+        "description": "Building entrance"
+      }
+    },
+    {
+      "name": "APTN",
+      "internal": {
+        "description": "Številka stanovanja"
+      },
+      "en": {
+        "description": "Apartment (flat) number"
+      }
+    },
+    {
+      "name": "ALCO",
+      "internal": {
+        "description": "Lokacijska koda naslova",
+        "remarks": "Nova tabela šifranta za pošte"
+      },
+      "en": {
+        "description": "Address location code"
+      }
+    },
+    {
+      "name": "FREA",
+      "internal": {
+        "description": "Prost vnos za naslov"
+      },
+      "en": {
+        "description": "Free text for address"
+      }
+    },
+    {
+      "name": "BNUP",
+      "internal": {
+        "description": "Številka stavbe - za pošiljanje"
+      },
+      "en": {
+        "description": "Building number - post"
+      }
+    },
+    {
+      "name": "BENP",
+      "internal": {
+        "description": "Vhod v stavbo - pošiljanje"
+      },
+      "en": {
+        "description": "Building entrance - post"
+      }
+    },
+    {
+      "name": "APTP",
+      "internal": {
+        "description": "Številka stanovanja - za pošiljanje"
+      },
+      "en": {
+        "description": "Apartment (flat) number - post"
+      }
+    },
+    {
+      "name": "FREP",
+      "internal": {
+        "description": "Prost vnos za naslov - za pošiljanje"
+      },
+      "en": {
+        "description": "Free text for address - post"
+      }
+    },
+    {
+      "name": "CSAT",
+      "internal": {
+        "description": "Status stranke"
+      },
+      "en": {
+        "description": "Customer status"
+      }
+    },
+    {
+      "name": "CLSD",
+      "internal": {
+        "description": "Datum zapiranja"
+      },
+      "en": {
+        "description": "Closing date"
+      }
+    },
+    {
+      "name": "TACT",
+      "internal": {
+        "description": "Tip aktivnosti"
+      },
+      "en": {
+        "description": "Type of activity"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10140"
+      }
+    },
+    {
+      "name": "BLCO",
+      "internal": {
+        "description": "Koda lokacije rojstva",
+        "remarks": "Nova tabela šifranta za pošte"
+      },
+      "en": {
+        "description": "Birth location code"
+      }
+    },
+    {
+      "name": "PUPO",
+      "internal": {
+        "description": "Javno stališče"
+      },
+      "en": {
+        "description": "Public position"
+      }
+    },
+    {
+      "name": "VIPX",
+      "internal": {
+        "description": "VIP"
+      },
+      "en": {
+        "description": "VIP"
+      }
+    },
+    {
+      "name": "GUDP",
+      "internal": {
+        "description": "Zavarovani depoziti"
+      },
+      "en": {
+        "description": "Guaranteed deposits"
+      }
+    },
+    {
+      "name": "XCRP",
+      "internal": {
+        "description": "Izpostavljeni tečajnim tveganjem POBA"
+      },
+      "en": {
+        "description": "Exposed to currency risk POBA"
+      }
+    },
+    {
+      "name": "SRWB",
+      "internal": {
+        "description": "Poseben odnos z banko"
+      },
+      "en": {
+        "description": "Special relationship with bank"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10137"
+      }
+    },
+    {
+      "name": "ORFU",
+      "internal": {
+        "description": "Izvor sredstev"
+      },
+      "en": {
+        "description": "Origin of funds"
+      }
+    },
+    {
+      "name": "JUPR",
+      "internal": {
+        "description": "Pravni postopki"
+      },
+      "en": {
+        "description": "Juridical procedures"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10139"
+      }
+    },
+    {
+      "name": "URRU",
+      "internal": {
+        "description": "Mestni/Podeželjski naslov"
+      },
+      "en": {
+        "description": "Urban/Rural address"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10138"
+      }
+    },
+    {
+      "name": "UNEM",
+      "internal": {
+        "description": "Nezaposlen"
+      },
+      "en": {
+        "description": "Unemployment"
+      }
+    },
+    {
+      "name": "DUNE",
+      "internal": {
+        "description": "Datum obvestila o nezaposlenosti"
+      },
+      "en": {
+        "description": "Date of unemploymment notification"
+      }
+    },
+    {
+      "name": "DEBR",
+      "internal": {
+        "description": "Delež dolga"
+      },
+      "en": {
+        "description": "Debt ratio"
+      }
+    },
+    {
+      "name": "BGIC",
+      "internal": {
+        "description": "Credit Institution Group"
+      },
+      "en": {
+        "description": "Credit Institution Group"
+      }
+    },
+    {
+      "name": "BGPE",
+      "internal": {
+        "description": "Porsche employees Group"
+      },
+      "en": {
+        "description": "Porsche employees Group"
+      }
+    },
+    {
+      "name": "BGSR",
+      "internal": {
+        "description": "Poba Special Relationships Group"
+      },
+      "en": {
+        "description": "Poba Special Relationships Group"
+      }
+    },
+    {
+      "name": "BGPO",
+      "internal": {
+        "description": "Porsche Group"
+      },
+      "en": {
+        "description": "Porsche Group"
+      }
+    },
+    {
+      "name": "INPT",
+      "internal": {
+        "description": "Uporabniški vnos"
+      },
+      "en": {
+        "description": "User Input"
+      }
+    },
+    {
+      "name": "DINP",
+      "internal": {
+        "description": "Časovni žig vnosa"
+      },
+      "en": {
+        "description": "Input timestamp"
+      }
+    },
+    {
+      "name": "AUTH",
+      "internal": {
+        "description": "Autoriziral"
+      },
+      "en": {
+        "description": "Authorizer"
+      }
+    },
+    {
+      "name": "DAUT",
+      "internal": {
+        "description": "Časovni žig avtorizacije"
+      },
+      "en": {
+        "description": "Authorization timestamp"
+      }
+    },
+    {
+      "name": "MPFU",
+      "internal": {
+        "description": "Strokovni študij menedžmenta na področju dejavnosti - univerzalni"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10146"
+      },
+      "en": {
+        "description": "Management professional studies in the field of activity - universal"
+      }
+    },
+    {
+      "name": "MPFH",
+      "internal": {
+        "description": "Strokovni študij menedžmenta na področju dejavnosti - srednješolski"
+      },
+      "en": {
+        "description": "Management professional studies in the field of activity - highschool"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10147"
+      }
+    },
+    {
+      "name": "MEFA",
+      "internal": {
+        "description": "Izkušnje vodenja na področju dejavnosti"
+      },
+      "en": {
+        "description": "Management experience in the field of activity"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10145"
+      }
+    },
+    {
+      "name": "PERF",
+      "internal": {
+        "description": "Nihanje osebja"
+      },
+      "en": {
+        "description": "Personnel fluctuation"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10144"
+      }
+    },
+    {
+      "name": "SDMA",
+      "internal": {
+        "description": "Odvisnost dobaviteljev od glavne dejavnosti"
+      },
+      "en": {
+        "description": "Suppliers dependency for the main activity"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10143"
+      }
+    },
+    {
+      "name": "CPMA",
+      "internal": {
+        "description": "Klientov portfelj za glavno dejavnost"
+      },
+      "en": {
+        "description": "Client portfolio for the main activity"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10142"
+      }
+    },
+    {
+      "name": "CLSC",
+      "internal": {
+        "description": "Klasifikacija (SME/Corporate)"
+      },
+      "en": {
+        "description": "Classification (SME/Corporate)"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10148"
+      }
+    },
+    {
+      "name": "TYRC",
+      "internal": {
+        "description": "Tip registracijske kode"
+      },
+      "en": {
+        "description": "Type of registration code"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10135"
+      }
+    },
+    {
+      "name": "SBAS",
+      "internal": {
+        "description": "Polletna bilanca stanja"
+      },
+      "en": {
+        "description": "Semestrial balance sheet"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10136"
+      }
+    },
+    {
+      "name": "BASD",
+      "internal": {
+        "description": "Datum bilance stanja"
+      },
+      "en": {
+        "description": "Balance sheet date"
+      }
+    },
+    {
+      "name": "TOAS",
+      "internal": {
+        "description": "Bilančna vsota"
+      },
+      "en": {
+        "description": "Total assets"
+      }
+    },
+    {
+      "name": "TURN",
+      "internal": {
+        "description": "Prihodek od prodaje"
+      },
+      "en": {
+        "description": "Turnover"
+      }
+    },
+    {
+      "name": "IMMX",
+      "internal": {
+        "description": "IMM"
+      },
+      "en": {
+        "description": "IMM"
+      }
+    },
+    {
+      "name": "PGCU",
+      "internal": {
+        "description": "Porsche group stranka"
+      },
+      "en": {
+        "description": "Porsche group customer"
+      }
+    },
+    {
+      "name": "SUC1",
+      "internal": {
+        "description": "Vpisani kapital 1"
+      },
+      "en": {
+        "description": "Subscribed capital 1"
+      }
+    },
+    {
+      "name": "PAI1",
+      "internal": {
+        "description": "Plačan kapital 1"
+      },
+      "en": {
+        "description": "Paid capital"
+      }
+    },
+    {
+      "name": "CUR1",
+      "internal": {
+        "description": "Valuta 1"
+      },
+      "en": {
+        "description": "Currency 1"
+      }
+    },
+    {
+      "name": "SUC2",
+      "internal": {
+        "description": "Vpisani kapital 2"
+      },
+      "en": {
+        "description": "Subscribed capital 2"
+      }
+    },
+    {
+      "name": "PAI2",
+      "internal": {
+        "description": "Vplačan kapital 2"
+      },
+      "en": {
+        "description": "Paid capital 2"
+      }
+    },
+    {
+      "name": "CUR2",
+      "internal": {
+        "description": "Valuta 2"
+      },
+      "en": {
+        "description": "Currency 2"
+      }
+    },
+    {
+      "name": "SUC3",
+      "internal": {
+        "description": "Subscribed capital 3"
+      },
+      "en": {
+        "description": "Vpisani kapital 3"
+      }
+    },
+    {
+      "name": "PAI3",
+      "internal": {
+        "description": "Vplačan kapital 3"
+      },
+      "en": {
+        "description": "Paid capital 3"
+      }
+    },
+    {
+      "name": "CUR3",
+      "internal": {
+        "description": "Valuta 3"
+      },
+      "en": {
+        "description": "Currency 3"
+      }
+    },
+    {
+      "name": "SUC4",
+      "internal": {
+        "description": "Vpisan kapital 4"
+      },
+      "en": {
+        "description": "Subscribed capital 4"
+      }
+    },
+    {
+      "name": "PAI4",
+      "internal": {
+        "description": "Vplačan kapital 4"
+      },
+      "en": {
+        "description": "Paid capital 4"
+      }
+    },
+    {
+      "name": "CUR4",
+      "internal": {
+        "description": "Valuta 4"
+      },
+      "en": {
+        "description": "Currency 4"
+      }
+    },
+    {
+      "name": "SUC5",
+      "internal": {
+        "description": "Vpisan kapital 5"
+      },
+      "en": {
+        "description": "Subscribed capital 5"
+      }
+    },
+    {
+      "name": "PAI5",
+      "internal": {
+        "description": "Vplačan kapital 5"
+      },
+      "en": {
+        "description": "Paid capital 5"
+      }
+    },
+    {
+      "name": "CUR5",
+      "internal": {
+        "description": "Valuta 5"
+      },
+      "en": {
+        "description": "Currency 5"
+      }
+    },
+    {
+      "name": "HIST",
+      "internal": {
+        "description": "Hišna številka"
+      },
+      "en": {
+        "description": "House number"
+      }
+    },
+    {
+      "name": "HISP",
+      "internal": {
+        "description": "Hišna številka za pošiljanje pošte"
+      },
+      "en": {
+        "description": "House number for sending post"
+      }
+    },
+    {
+      "name": "CJSI",
+      "internal": {
+        "description": "Pravna situacija podjetja"
+      },
+      "en": {
+        "description": "Company juridical situation"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10151"
+      }
+    },
+    {
+      "name": "POAF",
+      "internal": {
+        "description": "Porsche povezava"
+      },
+      "en": {
+        "description": "Porsche affiliation"
+      }
+    },
+    {
+      "name": "ID_CP_S554_KRAJ",
+      "internal": {
+        "description": "ShareToo - lokacija klienta/dealerja. Id iz tabele CP_S554."
+      },
+      "reference": {
+        "table": "CP_S554"
+      },
+      "en": {
+        "description": "ShareToo - Client/dealer location"
+      }
+    },
+    {
+      "name": "STCI",
+      "internal": {
+        "description": "ShareToo zbirno mesto obvestil"
+      },
+      "en": {
+        "description": "ShareToo collection place for notifications"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "120"
+      }
+    },
+    {
+      "name": "MMID",
+      "internal": {
+        "description": "Dan večmesečnega izdajanja računov"
+      },
+      "en": {
+        "description": "Multi-month invoicing day"
+      }
+    },
+    {
+      "name": "STET",
+      "internal": {
+        "description": "ShareToo tip pošiljanja mailov"
+      },
+      "en": {
+        "description": "ShareToo emailing type"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "1010"
+      }
+    },
+    {
+      "name": "STEX",
+      "internal": {
+        "description": "ShareToo flag for sending Excel annex for consolidated invoices"
+      },
+      "en": {
+        "description": "ShareToo flag for sending Excel annex for consolidated invoices"
+      }
+    },
+    {
+      "name": "ID_SYNC",
+      "internal": {
+        "description": "ID iz druge firme"
+      },
+      "en": {
+        "description": "ID from other company"
+      }
+    },
+    {
+      "name": "SSMS",
+      "internal": {
+        "description": "ShareToo flag for sending SMS for Car subscription reservations"
+      },
+      "en": {
+        "description": "ShareToo flag for sending SMS for Car subscription reservations"
+      }
+    },
+    {
+      "name": "SSMN",
+      "internal": {
+        "description": "ShareToo mobile numbers sending SMS for Car subscription reservations"
+      },
+      "en": {
+        "description": "ShareToo mobile numbers sending SMS for Car subscription reservations"
+      }
+    },
+    {
+      "name": "ESGR",
+      "internal": {
+        "description": "ESG riziko faktor"
+      },
+      "en": {
+        "description": "ESG-Risiko factor"
+      },
+      "reference": {
+        "table": "S420",
+        "code": "10265"
+      }
+    },
+    {
+      "name": "ISFF",
+      "internal": {
+        "description": "ISF"
+      },
+      "en": {
+        "description": "ISF"
+      }
+    },
+    {
+      "name": "IMAA",
+      "internal": {
+        "description": "IMA"
+      },
+      "en": {
+        "description": "IMA"
+      }
+    }
+  ]
+}
