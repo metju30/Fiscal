@@ -1,0 +1,185 @@
+Code Name
+AT	Österreich
+AD	Andorra
+AE	Arabische Emirate
+AF	Afghanistan
+AL	Albanien
+AM	Armenien
+AN	Niederländische Antil
+AND	Andorra
+AR	Argentinien
+AUS	Australien
+AW	Aruba
+AZ	Aserbeidschan
+B	Belgien
+BD	Bangladesch
+BDS	Barbados
+BF	Burkina faso
+BG	Bulgarien
+BH	Brit. Honduras
+BA	Bosnien-Herzegowina
+BM	Bermudas
+BOL	Bolivien
+BR	Brasilien
+BS	Bahamas
+BT	Bhutan
+BUR	Burma
+BW	Botswana
+BY	Weissrussland
+BZ	Belize
+C	Kuba
+CAM	Kamerun
+CDN	Kanada
+CG	Kongo
+CH	Schweiz
+CI	Elfenbeinküste
+CK	Cook Inseln
+CL	Sri Lanka
+CO	Kolumbien
+CR	Costa Rica
+CY	Zypern
+CZ	Tschechien
+D	Deutschland
+DK	Dänemark
+DOM	Dominik. Republik
+DZ	Algerien
+E	Spanien
+EAK	Kenia
+EAT	Tansania
+EAU	Uganda
+EE	Estland
+EQ	Ecuador
+ET	Ägypten
+F	Frankreich
+FIN	Finnland
+FL	Liechtenstein
+FR	Färöer-Inseln
+GB	Großbritannien
+GBJ	Jersey
+GBM	Man
+GBZ	Gibraltar
+GCA	Guatemala
+GEO	Georgien
+GH	Ghana
+GL	Grönland
+GN	Guinea
+GP	Guadeloupe
+GR	Griechenland
+H	Ungarn
+HK	Hongkong
+HR	Kroatien
+I	Italien
+IL	Israel
+IND	Indien
+IR	Iran
+IRL	Irland
+IRQ	Irak
+IS	Island
+JA	Jamaika
+JOR	Jordanien
+JP	Japan
+K	Kambodscha
+KG	Kirgistan
+KR	Korea
+KW	Kuwait
+KY	Cayman Inseln
+KZ	Kasachstan
+L	Luxemburg
+LAO	Laos
+LB	Liberia
+LC	St. Lucia
+LK	Sri Lanka
+LS	Lesotho
+LTU	Litauen
+LV	Lettland
+LY	Libyen
+M	Malta
+MA	Marokko
+MAL	Malaysia
+MC	Monaco
+MD	Moldawien
+MG	Madagaskar
+MK	Mazedonien
+ML	Mali
+MM	Myanmar/Burma
+MO	Macao
+MOC	Mozambique
+MQ	Martinique
+MS	Mauritius
+MV	Malediven
+MW	Malawi
+MX	Mexiko
+N	Norwegen
+NA	Niederl. Antillen
+NE	Niger
+NGN	Niederl. Neuguinea
+NIC	Nicaragua
+NL	Niederlande
+NP	Nepal
+NZ	Neuseeland
+OM	Oman
+P	Portugal
+PA	Panama
+PAK	Pakistan
+PAN	Angola
+PE	Peru
+PI	Philippinen
+PL	Polen
+PR	Puerto Rico
+PW	Palau
+PY	Paraguay
+QA	Katar
+RC	China
+RCH	Chile
+RE	Réunion
+RH	Haiti
+RI	Indonesien
+RL	Libanon
+RO	Rumänien
+RSM	San Marino
+RU	Burundi
+RUS	Russland
+RW	Ruanda
+S	Schweden
+SA	Saudi-Arabien
+SC	Seychellen
+SD	Sudan
+SGP	Singapur
+SI	Slowenien
+SK	Slowakei
+SME	Surinam
+SN	Senegal
+SP	Somalia
+SV	El Salvador
+SYR	Syrien
+T	Thailand
+TG	Togo
+TJ	Tadschikistan
+TM	Turkmenistan
+TN	Tunesien
+TR	Türkei
+TT	Trinidad
+TW	Taiwan
+U	Uruguay
+UKR	Ukraine
+USA	USA
+UZ	Usbekistan
+V	Vatikan
+VG	Jungfern Inseln (British)
+VI	Jungfern Inseln (USA)
+VN	Vietnam
+WAG	Gambia
+WAL	Sierra Leone
+WAN	Nigeria
+WG	Grenada
+XM	Mazedonien
+YE	Jemen
+YV	Venezuela
+ZA	Südafrika
+ZM	Sambia
+ZR	Zaire
+ZW	Zimbabwe
+RS	Serbia
+ME	Montenegro
+KS	Kosovo
+XJ	Montenegro
